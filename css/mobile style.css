@@ -1,0 +1,648 @@
+@media (max-width:1024px){
+    .navbar{
+        position: fixed;
+        background-color:black !important;
+        /* background:transparent !important; */
+        height:5rem;
+      }
+
+    .navbar i{
+        padding:0.5rem;
+    }
+    .navbar .navbar-brand {
+        height:2.5rem;
+        padding-left: 1rem;
+        margin:1rem 0;
+    
+    }
+     .navbar .nav-item{
+        padding:0 0 0 2rem;
+    }
+.fix i{
+   display: none;
+}
+    .landing-section p{
+        display: none;
+    }
+    .web-design-landing h1{
+        margin-top: 10rem;
+    }
+        .body{
+           padding:5rem 1rem;
+        }
+    
+        .section-2 h3{
+            font-size:2rem;
+        }
+
+
+        .digital-marketing-landing h1{
+            font-size: 1.5rem;
+            margin-top:10rem;
+         }
+    
+        .section-3 h3{
+            font-size:2rem; 
+        }
+    
+        .lost{
+            display:none;
+        }
+    
+        .line{
+            display:none;
+        }
+    
+        .landing-section h1{
+        font-size:2rem;
+        }
+        .landing-section{
+          height:100vh;
+          width:100%;
+          padding-bottom:5rem;
+        }
+    
+        .about-landing{
+            height:100vh;
+            padding:5rem 0 0 0;
+        }
+    
+        .about-landing h2{
+            padding-top:5rem;
+        }
+        .about-landing h3{
+            font-size:1.2rem;
+        }
+
+        .web-design-landing h2{
+            padding-top:5rem;
+        }
+        
+         .services-landing h2{
+        padding-top:5rem;
+       }
+
+       .digital-marketing-landing,
+        .web-design-landing,
+        .landing-section,
+        .services-landing,
+        .about-landing,
+        .process-2,
+        .section-1,
+        .section-2,
+        .section-3,
+        .section-4
+        .section-4b,
+        .section-5,
+        .section-6{
+          display:flex;
+          flex-direction: column;
+          justify-content: center;
+           align-items: center;
+           text-align: center;
+           width:100%;
+           height:80%;
+           font-size:1rem;
+           /* padding:0 3rem 2rem 0; */
+           overflow-x: hidden; 
+           padding:1rem;
+        }
+    
+        .section-1 h2{
+            font-size:1rem;
+        }
+        .primary-banner{
+            display:none;
+            padding:1rem 0;
+        }
+    
+    
+        .banner{
+            padding:0 1rem 2.5rem 1rem;
+        }
+    
+        .banner h3{
+            font-size:1.5rem;
+        }
+        h2,h3,h3,h4,h5,h6{
+            font-size:1.5rem;
+            /* padding:rem 0 0 0; */
+        }
+    
+        .heading{
+            padding:5rem 0 0 0;
+            font-size:2rem;
+        }
+    
+        span{
+            font-size:2.6rem;
+        }
+
+        .list{
+            display: none;
+        }
+        .top-bar{
+            display: none;
+        }
+    }
+
+
+
+@media (max-width:768px){
+
+     /* .collapse{
+         background: #000 !important;
+         width: 100%;
+     } */
+     .dropdown-content{
+        display: none;
+        position: absolute;
+        z-index:1;
+        background-color: #fff;
+        min-width:160px;
+        box-shadow:0px 2px 15px 0px rgba(0, 0, 0, 0.3);
+        border-radius:5px;
+        margin-top:-0.1rem;
+      }
+     .navbar{
+        position: fixed;
+        background-color:black !important;
+        /* background:transparent !important; */
+        height:5rem;
+      }
+
+      .collapse{
+        background: #000;
+        color:white;
+        z-index:1;
+      }
+     .navbar i{
+         padding:0.5rem;
+     }
+
+     .navbar .navbar-brand {
+        height:2.5rem;
+        padding-left: 1rem;
+        margin:1rem 0;
+    
+    }
+     .navbar .nav-item{
+        padding:0 0 0 2rem;
+    }
+.fix i{
+   display: none;
+}
+
+.contact span{
+    font-size:1.5rem;
+}
+
+.contact h3{
+    font-size:1rem;
+}
+     .landing-section p{
+        display: none;
+    }
+     .digital-marketing-landing h1{
+        font-size: 1.5rem;
+        margin-top:10rem;
+     }
+     .nav-item .nav-link a{
+         text-align: center;
+         margin:auto;
+     }
+     .nav-bar{
+         margin-top:2rem !important;
+         height:2rem;
+         text-align: center;
+        position: relative;
+     }
+    .body{
+       padding:5rem 1rem;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .section-2 h3{
+        font-size:2rem;
+    }
+
+    .section-3 h3{
+        font-size:2rem; 
+    }
+
+    .lost{
+        display:none;
+    }
+
+    .line{
+        display:none;
+    }
+
+    .landing-section .btn-1{
+        padding:0.5rem 1rem;
+        margin:2rem 0;
+    }
+
+    .landing-section h1{
+    font-size:1.5rem;
+    margin-top:5rem;
+    }
+
+    .landing-section h2{
+        font-size:1.5rem;
+        margin-bottom:1rem;
+    }
+    .landing-section{
+      height:100%;
+      width:100%;
+      padding-bottom:10rem;
+      overflow: hidden;
+    }
+
+    
+
+    .top-bar{
+        display: none;
+    }
+
+    .about-landing{
+        height:100vh;
+        padding:5rem 0 0 0;
+    }
+
+    .about-landing h2{
+        padding-top:10rem;
+    }
+    .about-landing h1{
+        font-size:1.2rem;
+    }
+    
+     .services-landing h2{
+    padding-top:7rem;
+   }
+   .services-landing h1{
+       font-size:1.2rem;
+   }
+
+   .FAG h2{
+       margin-top:10rem;
+   }
+
+   .wrk img,
+   .wrk-1 img{
+       display: none;
+   }
+    .recent-work{
+    background:url(../img/portfolio/vegagym.epizy_.com\ imac\ left.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    padding-bottom:3rem;
+    position: relative;
+   
+    }
+
+ 
+
+    .recent-work h2{
+        font-size:2rem;
+        margin-top:2rem;
+    }
+    .our-work,
+    .recent-work,
+    .digital-marketing-landing,
+    .web-design-landing,
+    .landing-section,
+    .FAG,
+    .contact,
+    .services-landing,
+    .about-landing,
+    .process-2,
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4
+    .section-4b,
+    .section-5,
+    .section-6{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+       align-items: center;
+       text-align: center;
+       width:100%;
+       height:80%;
+       font-size:1rem;
+       /* padding:0 3rem 2rem 0; */
+       overflow-x: hidden; 
+       padding:1rem;
+    }
+
+    .section-1 h2{
+        font-size:1rem;
+    }
+    .primary-banner{
+        display:none;
+        padding:1rem 0;
+    }
+
+    /* .web-design-landing{
+        overflow-x: hidden;
+    } */
+
+    .banner{
+        padding:0 1rem 2.5rem 1rem;
+    }
+
+    .banner h3{
+        font-size:1.5rem;
+    }
+    h2,h3,h3,h4,h5,h6{
+        font-size:1.5rem;
+        /* padding:rem 0 0 0; */
+    }
+
+    .heading{
+        padding:5rem 0 0 0;
+        font-size:2rem;
+    }
+
+    span{
+        font-size:2.6rem;
+    }
+
+    .web-design-landing h1{
+        margin-top: 10rem;
+        font-size:1.3rem;
+    }
+    .contact{
+        width:100%;
+        overflow: hidden;
+        height:80vh;
+    }
+
+    .contact h2{
+        margin-top:15rem;
+    }
+    
+    .seo h5{
+        font-size:1.2rem;
+     }
+    
+
+}
+
+
+
+@media (max-width:960px){
+
+    .navbar{
+        position: fixed;
+        background-color:black !important;
+        /* background:transparent !important; */
+        height:5rem;
+      }
+    .navbar i{
+        padding:0.5rem;
+    }
+    .navbar .navbar-brand {
+        height:2.5rem;
+        padding-left: 1rem;
+        margin:1rem 0;
+    
+    }
+     .navbar .nav-item{
+        padding:0 0 0 2rem;
+    }
+.fix i{
+   display: none;
+}
+
+    /* .contact h2{
+        margin-top:15rem;
+        font-size:2rem;
+    } */
+    .top-bar{
+        display: none;
+    }
+
+    .seo h5{
+       font-size:1.2rem;
+    }
+
+    .landing-section p{
+        display: none;
+    }
+
+    .services-landing h2{
+        margin-top:15rem;
+        animation-delay:600ms;
+     } 
+    main{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .contact,
+    .web-design-landing,
+    .digital-marketing-landing,
+    .landing-section,
+    .services-landing,
+    .about-landing,
+    .process-2,
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4
+    .section-4b,
+    .section-5,
+    .section-6{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+       align-items: center;
+       text-align: center;
+       width:100%;
+       height:80%;
+       font-size:1rem;
+       /* padding:0 3rem 2rem 0; */
+       overflow-x: hidden; 
+       padding:1rem;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .services-landing{
+        height:80vh;
+    }
+    /* .services-landing h2{
+        padding-top:15rem;
+    } */
+
+    .section-2 h2{
+        font-size:2rem;
+    }
+
+    .section-3 h3{
+        font-size:2rem; 
+    }
+
+    .landing-section{
+        height:60vh;
+    }
+
+    .web-design-landing h1{
+        margin-top: 10rem;
+    }
+    .web-design-landing{
+        width:100%;
+        overflow: hidden;
+    }
+
+    .digital-marketing-landing h1{
+       font-size: 1.5rem;
+       margin-top:10rem;
+    }
+
+    .contact{
+        width:100%;
+        overflow: hidden;
+        height:65vh;
+    }
+
+    .contact h2{
+        margin-top:15rem;
+    }
+}
+
+@media (max-width:375px){
+    .navbar{
+        position: fixed;
+        background-color:black !important;
+        /* background:transparent !important; */
+        height:5rem;
+      }
+
+    /* .contact h2{
+        margin-top:15rem;
+        font-size:2rem;
+    } */
+
+    .navbar i{
+        padding:0.5rem;
+    }
+
+    .navbar .navbar-brand {
+        height:2.5rem;
+        padding-left: 1rem;
+        margin:1rem 0;
+    
+    }
+     .navbar .nav-item{
+        padding:0 0 0 2rem;
+    }
+.fix i{
+   display: none;
+}
+    .top-bar{
+        display: none;
+    }
+
+    .seo h5{
+       font-size:1.2rem;
+    }
+
+    .landing-section p{
+        display: none;
+    }
+
+    .services-landing h2{
+        margin-top:15rem;
+        animation-delay:600ms;
+     } 
+    main{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .contact,
+    .web-design-landing,
+    .digital-marketing-landing,
+    .landing-section,
+    .services-landing,
+    .about-landing,
+    .process-2,
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4
+    .section-4b,
+    .section-5,
+    .section-6{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+       align-items: center;
+       text-align: center;
+       width:100%;
+       height:80%;
+       font-size:1rem;
+       /* padding:0 3rem 2rem 0; */
+       overflow-x: hidden; 
+       padding:1rem;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .services-landing{
+        height:80vh;
+    }
+    /* .services-landing h2{
+        padding-top:15rem;
+    } */
+
+    .section-2 h2{
+        font-size:2rem;
+    }
+
+    .section-3 h3{
+        font-size:2rem; 
+    }
+
+    .landing-section{
+        height:60vh;
+    }
+
+    .web-design-landing h1{
+        margin-top: 10rem;
+    }
+    .web-design-landing{
+        width:100%;
+        overflow: hidden;
+    }
+
+    .digital-marketing-landing h1{
+       font-size: 1.5rem;
+       margin-top:10rem;
+    }
+
+    .contact{
+        width:100%;
+        overflow: hidden;
+        height:65vh;
+    }
+
+    .contact h2{
+        margin-top:15rem;
+    }
+}
