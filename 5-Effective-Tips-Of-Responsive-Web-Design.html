@@ -352,42 +352,32 @@ the brand image of respective companies. </b></p>
      </div>
     
     <div class="comments p-5">
-      <h2 class="text-left">Comments</h2>
-        <form method="post" data-netflify="true" data-netlify-recaptcha="true">
+     
+          <h2 class="text-left">Comments</h2>
 
-          <div class="form-items">
-            
-            <div class="name">
-                <label>Name</label>
-                <input type="text" name="name" id="name" class="form-control p-2 mb-3" placeholder="Name"><br>
-            </div>
-            
-          
-           <div class="email">
-              <label>Email</label>
-              <input type="text" name="email" id="email"  class="form-control p-2 mb-3" placeholder="Email"><br>
-           </div>
-
-           <div class="name">
-              <label>Website</label>
-              <input type="text" name="website" id="Website"  class="form-control p-2 mb-3" placeholder="Eg.https://hilaxmedia.com"><br>
-          </div>
-
-          <div class="message">
-          <label>Message</label>
-          <textarea name="message" id="message"  class="form-control p-2 mb-3" cols="20" rows="10" placeholder="Message"></textarea>
-          </div>
-
-          <div data-netlify-recaptcha="true"></div>
-
-        <div class="action">
-          <input type="submit" value="Send Message"  class="btn-1 fas fa-arrow-right">
-        </div>
-        </div>   
-    </div>
-    </form>
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name"  placeholder="Name" class="form-control"/></label>   
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email"  placeholder="Email"  class="form-control"/></label>
+            </p>
+            <p>
+              <label>Website : <input type="email" name="email"  placeholder="https://hilaxmedia.com"  class="form-control"/></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"  class="form-control"></textarea></label>
+            </p>
+            <p>
+                <div data-netlify-recaptcha="true"></div>
+            </p>
+            <p>
+              <button type="submit" class="btn-1">Send</button>
+            </p>
+          </form>
+      
+     
   </div>
-
 
 
 
