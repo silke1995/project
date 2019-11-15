@@ -520,9 +520,91 @@
     .contact h2{
         margin-top:15rem;
     }
+
+    .bg-text h1,
+   .blog-landing-6 h1,
+   .blog-landing-5 h1,
+   .blog-landing-4 h1,
+   .blog-landing-3 h1,
+   .blog-landing-2 h1,
+   .blog-landing-1 h1{
+
+      font-size:2rem;
+      top:45%;
+      left:1%;
+   }
+
+   .blog img{
+    width:100%;
+    height:100%;
+  } 
+   
+  
+ .form-control{
+    width:200px;
+    margin:0;
+  
+  }
+
+  .bs{
+      position:absolute;
+      top:50%;
+      left:15%;
+      color:white;
+      font-weight: bold;
+  }
+
+  .bg-text{
+      top:50%;
+      left:10%;
+      display: none;
+  }
+
 }
 
 @media (max-width:375px){
+
+    
+  .bs{
+    position:absolute;
+    top:50%;
+    left:3%;
+    color:white;
+    font-weight: bold;
+    padding:1rem;
+}
+
+
+    .bg-landing h1{
+       
+        top:40%;
+        left:1%;
+        color: white;
+        font-size:1rem;
+        font-weight: bold;
+        }
+    
+ .form-control{
+    width:200px;
+    margin:0;
+    
+  }
+    .blog img{
+        width:100%;
+        height:100%;
+      } 
+     
+   
+    .blog-landing-6 h1,
+    .blog-landing-5 h1,
+    .blog-landing-4 h1,
+    .blog-landing-3 h1,
+    .blog-landing-2 h1,
+    .blog-landing-1 h1{
+        font-size:2rem;
+      top:45%;
+      left:1%;
+    }
     .navbar{
         position: fixed;
         background-color:black !important;
