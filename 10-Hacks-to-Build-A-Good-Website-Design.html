@@ -378,38 +378,22 @@ and fulfils its expected functionality enhances the great user experience " />
    
       <div class="comments p-5">
         <h2 class="text-left">Comments</h2>
-          <form name="contact"  method="post" data-netflify="true">
-  
-            <div class="form-items">
-              
-              <div class="name">
-                  <label>Name</label>
-                  <input type="text" name="name" id="name" class="form-control p-2 mb-3" placeholder="Name"><br>
-              </div>
-              
-            
-             <div class="email">
-                <label>Email</label>
-                <input type="text" name="email" id="email"  class="form-control p-2 mb-3" placeholder="Email"><br>
-             </div>
-  
-             <div class="name">
-                <label>Website</label>
-                <input type="text" name="website" id="Website"  class="form-control p-2 mb-3" placeholder="Eg.https://hilaxmedia.com"><br>
-            </div>
-  
-            <div class="message">
-            <label>Message</label>
-            <textarea name="message" id="message"  class="form-control p-2 mb-3" cols="20" rows="10" placeholder="Message"></textarea>
-            </div>
-  
-<!--             <div data-netlify-recaptcha="true"></div> -->
-  
-                <p>
-              <button type="submit" class="btn-1">Send</button>
-            </p>
-          </div>   
-      </div>
+          <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name"  placeholder="Name" class="form-control"/></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email"  placeholder="Email"  class="form-control"/></label>
+        </p>
+        <p>
+          <label>Website : <input type="email" name="email"  placeholder="https://hilaxmedia.com"  class="form-control"/></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"  class="form-control"></textarea></label>
+        </p>
+        <p>
+          <button type="submit" class="btn-1">Send</button>
+        </p>
       </form>
     </div> 
  
