@@ -420,8 +420,10 @@ box-shadow:var(--shadow);
  }
 
  .form-control{
-   width:70%;
- }
+   width:50vw;
+ } 
+
+
 
  .share{
    padding-left:2rem;
