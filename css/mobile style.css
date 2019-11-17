@@ -149,6 +149,16 @@
 
 
 @media (max-width:768px){
+    
+     ul{
+        text-decoration: none;
+        list-style: none;
+    }
+
+    li{
+        text-decoration: none;
+        list-style:none;
+    }
 
      /* .collapse{
          background: #000 !important;
@@ -399,6 +409,16 @@
 
 
 @media (max-width:960px){
+    
+     ul{
+        text-decoration: none;
+        list-style: none;
+    }
+
+    li{
+        text-decoration: none;
+        list-style:none;
+    }
 
     .navbar{
         position: fixed;
@@ -563,6 +583,16 @@
 }
 
 @media (max-width:375px){
+    
+     ul{
+        text-decoration: none;
+        list-style: none;
+    }
+
+    li{
+        text-decoration: none;
+        list-style:none;
+    }
 
     
   .bs{
