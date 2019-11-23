@@ -959,44 +959,7 @@ footer i:hover{
 }
 
 
-.low{
-    margin-top:10rem;
-   font-size:3rem;
-}
-.vega-page{
-     background:url(../img/portfolio/vega\ gym\ 1.png);
-    background-attachment: fixed;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
 
-.consult-page{
-  background:url(../img/portfolio/2019-11-06-18-57-quanticalabs.com.png);
-   background-attachment: fixed;
-   background-size:cover;
-   background-repeat: no-repeat;
-}
-
-.plus-page{
-    background:url(../img/portfolio/masterpluscleaning\ imac_front.png);
-   background-attachment: fixed;
-   background-size:cover;
-   background-repeat: no-repeat;
-}
-.vega-page .plus-page .consult-page img{
-    width:60vw;
-    height:100%;
-}
-
-.vega .plus .consult{
-    /* background:url(../img/portfolio/vega\ gym\ 1.png);
-    background-attachment: fixed;
-    background-size:cover;
-    background-repeat: no-repeat; */
-    background-color: #000;
-    height:100vh;
-    
-}
 
 .recent-work img{
   width:450px;
@@ -1013,55 +976,7 @@ footer i:hover{
     padding-bottom:3rem;
 } 
 
-/* .wrk{
-    background:black;
-    
-}
 
-.wrk:hover::before{
-    transform: scaleX(1);
-}
-
-.wrk::before
-{
-    content:'';
-    position:absolute;
-    left: 0;
-    /* top:5rem; */
-    /* background-color:black;
-    opacity:0.7;
-    height:65vh;
-    width:100%;
-    transform: scaleX(0);
-    transition:transform 650ms;
-    transform-origin: left;
-    /* z-index:1; */
-
-/* .wrk-1{
-    background:black;
-    color: white;
-    
-}
-
-.wrk-1:hover::before{
-    transform: scaleX(1);
-}
-
-.wrk-1::before
-{
-    content:'';
-    position:absolute;
-    left: 0;
-    
-    background-color:black;
-    opacity:0.7;
-    height:65vh;
-    width:100%;
-    transform: scaleX(0);
-    transition:transform 650ms;
-    transform-origin: left;
-    
-} */
 .layer-txt{
     position: absolute;
     top:40%;
@@ -1075,25 +990,8 @@ footer i:hover{
     right:10%;
 }
 
-.our-work-inner{
-  padding-top: 15rem;
-}
-
-.our-work-inner h2{
-    font-size: 3rem;
-  }
 
 
-/* .wrk:hover,
-.wrk-1:hover{
-    background: #000;
-    opacity:0.5;
-    transition:transform 1000ms;
-    transform-origin: left;
-    height:65vh;
-    width:100%;
-    transform: scaleX(0);
-} */
 .gotopbtn{
     position: fixed;
     width: 50px;
@@ -1122,3 +1020,6 @@ footer i:hover{
     width:100%;
     height:100%;
 }
+
+
+

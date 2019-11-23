@@ -1,0 +1,89 @@
+
+.vega-page{
+     background:url(../img/portfolio/vega\ gym\ 1.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.consult-page{
+  background:url(../img/portfolio/2019-11-06-18-57-quanticalabs.com.png);
+   background-attachment: fixed;
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+
+.plus-page{
+    background:url(../img/portfolio/masterpluscleaning\ imac_front.png);
+   background-attachment: fixed;
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+.vega-page .plus-page .consult-page img{
+    width:60vw;
+    height:100%;
+}
+
+.vega .plus .consult{
+    /* background:url(../img/portfolio/vega\ gym\ 1.png);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat; */
+    background-color: #000;
+    height:100vh;
+    
+}
+
+.low{
+    background:url(../img/portfolio/image\ 2.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+.low h2{
+    position: absolute;
+    top:30%;
+    left:30%;
+    background:darkblue;
+    padding:2rem 3rem;
+}
+
+.advan{
+    background:url(../img/portfolio/advan\ 1.png);
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+}
+
+.advan h2{
+    position: absolute;
+    top:30%;
+    left:30%;
+    background:darkblue;
+    padding:2rem 3rem;
+}
+
+/* .advan-page{
+background:url(../img/portfolio/advan\ 2_imac2013_front.png);
+height:100vh;
+width:100%;
+} */
+
+
+img:hover{
+    transition:all 600ms ease-in;
+}
+
+.our-work-inner{
+    padding-top:15rem;
+  }
+  
+  .our-work-inner h2{
+      font-size: 3rem;
+      background:grey;
+     
+    }
