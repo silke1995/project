@@ -16,6 +16,7 @@
 
 
 
+
 body{
     background-image: url(../img/programming\ code.jpg);
     background-attachment: fixed;
@@ -1022,4 +1023,10 @@ footer i:hover{
 }
 
 
+
+#job{
+    background: #fff;
+    height:100%;
+    color:black;
+}
 
